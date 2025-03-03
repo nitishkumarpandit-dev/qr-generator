@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QR Code Generator
+
+A modern, responsive QR Code Generator web application built with Next.js, TypeScript, and Tailwind CSS.
+
+## Features
+
+- 📱 Generate QR codes from any text or URL
+- 🎨 Customize QR code color with predefined colors or custom color picker
+- 📏 Adjust QR code size (128px to 512px)
+- 💾 Download QR codes as PNG images
+- 📱 Fully responsive design
+- ⚡ Instant QR code generation
+- 🎯 Type-safe with TypeScript
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [QRCode.react](https://www.npmjs.com/package/qrcode.react) - QR code generation
+- [html-to-image](https://www.npmjs.com/package/html-to-image) - Image download functionality
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/qr-generator.git
+cd qr-generator
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Enter any text or URL in the input field
+2. The QR code will be generated automatically
+3. Customize the QR code:
+   - Choose from predefined colors or pick a custom color
+   - Adjust the size using the slider
+4. Click "Download QR Code" to save the QR code as a PNG image
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
